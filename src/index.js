@@ -1,4 +1,4 @@
-import e from 'cors';
+// import e from 'cors';
 import './less/index.less'
 
 // Your code goes here!
@@ -42,12 +42,12 @@ window.addEventListener("load", (event) => {
     
 });
 
+///--------
 
-
-contentImgOne.addEventListener('dblclick',()=>{
-   let value = prompt("What is your secret?")
-    alert(`You said, "${value}"!`)
-})
+// contentImgOne.addEventListener('dblclick',()=>{
+//    let value = prompt("What is your secret?")
+//     alert(`You said, "${value}"!`)
+// })
 
 
 
@@ -78,9 +78,9 @@ window.addEventListener('scroll', (event) => {
   
 
 
-contentImgOne.addEventListener('drag', (event) => {
-    document.querySelector('h2').textContent ='What a drag!'
-});
+// contentImgOne.addEventListener('drag', (event) => {
+//     document.querySelector('h2').textContent ='What a drag!'
+// });
 
 
 navLinks.forEach(link=>{
@@ -97,9 +97,9 @@ const contenth2two = document.querySelector('.content-section:nth-of-type(2) h2'
 
 
 
-contentImgtwo.addEventListener('dragend', (event) => {
-    console.log('You dropped me!');
-    contenth2two.textContent = 'You dropped me!!'
+// contentImgtwo.addEventListener('dragend', (event) => {
+//     console.log('You dropped me!');
+//     contenth2two.textContent = 'You dropped me!!'
 
-});
+// });
 
